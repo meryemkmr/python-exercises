@@ -20,26 +20,26 @@
 
 # 2. Tip Calculator
 
-bill_amount = float(input('The Total Bill Amount:$'))
-level_of_service = input('Level Of Service : good, fair , bad')
-split = int(input('Split how many ways'))
-tip_amount = float()
+# bill_amount = float(input('The Total Bill Amount:$'))
+# level_of_service = input('Level Of Service : good, fair , bad')
+# split = int(input('Split how many ways'))
+# tip_amount = float()
 
-if (level_of_service == 'good'):
-    tip_amount = bill_amount * .2
-    print('Tip Amount : $' ,"%.2f" %tip_amount)
-elif( level_of_service =='fair'):
-    tip_amount = bill_amount * .15
-    print('Tip Amount : $', "%.2f" %tip_amount)
-elif(level_of_service == 'bad'):
-    tip_amount = bill_amount *.10
-    print('Tip Amount : $' ,"%.2f" %tip_amount)
-else:
-    print('')
-total_amount = float(bill_amount + tip_amount)
-per_person = float(total_amount/split)
-print('Total Amount: $' , "%.2f" %  total_amount)
-print('Amount per person: '"%.2f" % per_person)
+# if (level_of_service == 'good'):
+#     tip_amount = bill_amount * .2
+#     print('Tip Amount : $' ,"%.2f" %tip_amount)
+# elif( level_of_service =='fair'):
+#     tip_amount = bill_amount * .15
+#     print('Tip Amount : $', "%.2f" %tip_amount)
+# elif(level_of_service == 'bad'):
+#     tip_amount = bill_amount *.10
+#     print('Tip Amount : $' ,"%.2f" %tip_amount)
+# else:
+#     print('')
+# total_amount = float(bill_amount + tip_amount)
+# per_person = float(total_amount/split)
+# print('Total Amount: $' , "%.2f" %  total_amount)
+# print('Amount per person: '"%.2f" % per_person)
 
 
 
@@ -80,4 +80,11 @@ print('Amount per person: '"%.2f" % per_person)
 
 
 
+a = [2,4,5]
+b = [2,3,4]
+ab =[]
 
+for i in range(len(a)):
+    ab.append(a[i]*b[i])
+
+print(ab)
