@@ -1,26 +1,45 @@
 # 1. Tip Calculator
 
 # bill_amount = float(input('The Total Bill Amount:$'))
-# level_of_service = (input('Level Of Service :'))
+# level_of_service = (input('Level Of Service : good, fair , bad'))
 # tip_amount = float()
 
 # if (level_of_service == 'good'):
 #     tip_amount = bill_amount * .2
-#     print('Tip Amount : ' ,tip_amount)
+#     print('Tip Amount : $' ,"%.2f" %tip_amount)
 # elif( level_of_service =='fair'):
 #     tip_amount = bill_amount * .15
-#     print('Tip Amount : ', tip_amount)
+#     print('Tip Amount : $', "%.2f" %tip_amount)
 # elif(level_of_service == 'bad'):
 #     tip_amount = bill_amount *.10
-#     print('Tip Amount : ' ,tip_amount)
+#     print('Tip Amount : $' ,"%.2f" %tip_amount)
 # else:
 #     print('')
 # total_amount = float(bill_amount + tip_amount)
-# print('Total Amount:' , "%.2f" %  total_amount)
+# print('Total Amount: $' , "%.2f" %  total_amount)
 
 # 2. Tip Calculator
 
+bill_amount = float(input('The Total Bill Amount:$'))
+level_of_service = input('Level Of Service : good, fair , bad')
+split = int(input('Split how many ways'))
+tip_amount = float()
 
+if (level_of_service == 'good'):
+    tip_amount = bill_amount * .2
+    print('Tip Amount : $' ,"%.2f" %tip_amount)
+elif( level_of_service =='fair'):
+    tip_amount = bill_amount * .15
+    print('Tip Amount : $', "%.2f" %tip_amount)
+elif(level_of_service == 'bad'):
+    tip_amount = bill_amount *.10
+    print('Tip Amount : $' ,"%.2f" %tip_amount)
+else:
+    print('')
+total_amount = float(bill_amount + tip_amount)
+per_person = float(total_amount/split)
+print('Total Amount: $' , "%.2f" %  total_amount)
+print('Amount per person: '"%.2f" % per_person)
 
 
 
@@ -31,27 +50,33 @@
 # 3. How many coins?
 
 # coins = 0
-# first_total = f'You have {coins} coins '
-# print(first_total)
-# question1 = input('Do you want another?')
-# answer = ''
-# if (answer == 'yes'):
-#     coins +=1
-#     print('You have' + str(coins) + 'coins.')
-    
-# else:
-#     print('bye')
+# question1 = "yes"
+# while question1 == "yes":
+#     first_total = (f'You have {coins} coins ')
+#     print(first_total)
+#     question1 = input('Do you want another?')
+#     if (question1 == 'yes'):
+#         coins +=1
 
+# print("END")
+    
+
+
+
+# 5. Print a Triangle
+# n = 1
+# m = 10
+# while m> 0:
+#     print(''* m + '*' * n)
+#     m -= 1
+#     n +=2
 
 
 # 6.Multiplication Table
 
-# let s = prompt('enter any number');
-# // n= 1;
-# // while(n<=10){
-# //   console.log(s+ '*' + n +'='+ (s*n));
-# //   n=n+1
-
+# for num1 in range(1,11):
+#     for num2 in range(1,11):
+#         print(num1,"X",num2,"=",num1 * num2)
 
 
 
