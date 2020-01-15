@@ -56,14 +56,14 @@
 #     print(count)
 #     count += 1
 
-square = int (input('How big is the square?'))
-i = 0
-while (i < square):
-    j = 0
-    while(j< square):
-        j += 1
-        print('*' , end = '')
-    i +=1
-    print('')
+# square = int (input('How big is the square?'))
+# i = 0
+# while (i < square):
+#     j = 0
+#     while(j< square):
+#         j += 1
+#         print('*' , end = '')
+#     i +=1
+#     print('')
     
     
