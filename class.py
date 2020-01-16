@@ -104,12 +104,83 @@
 # for index in range(len(alphabet)):
 #     print(alphabet[index])
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-alphalist = list(alphabet)
+# alphabet = "abcdefghijklmnopqrstuvwxyz"
+# alphalist = list(alphabet)
 
-print(type(alphalist))
+# print(type(alphalist))
 
-alphabet = ".".join(alphalist)
+# alphabet = ".".join(alphalist)
 
-print(type(alphabet))
-print(alphabet)
+# print(type(alphabet))
+# print(alphabet)
+
+
+# for outter_variable in range(3):
+#     for innner_variable in range(3):
+#         print(outter_variable)
+#         print(outter_variable , innner_variable)
+
+
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(f'{i} x {j} = {i}*{j}')
+
+
+
+# days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+# subj = ['Object','HW','Training']
+# for w in range(1,17):
+    
+#     print (f'Week : {w}')
+    
+#     for d in days:
+#         print(f'\t{d}')
+#         for lesson in subj:
+#             print(f'\t\t-{lesson}')
+
+
+# mount = ['jan','feb','march','april','may','jun']
+# days = ['mon','tue','wed','thu','fri','satur','sun']
+# for year in range(1,11):
+#     print(f'Year : {year}')
+#     for moun in mount:
+#         print(f'\t. {moun}')
+#         for week in range(1,5):
+#             print(f'Week : {week}')
+#             for day in days:
+#                 print(f'\t\t*{day}')
+
+# def print_student():
+#     print("Shu")
+#     print("Thomas")
+#     print("Gustavo")
+#     print("Alim")
+
+
+
+
+# print("Day 1: Students in SRE class")
+# print("lecture: git 101")
+# print_student()
+# print("Day 2: Students in SRE class")
+# print("lecture: git 102")
+# print_student()
+# print("Day 3: Students in SRE class")
+# print("lecture: python 101")
+# print_student()
+
+
+# def greeting(person):
+#     print(f'Welcome {person}')
+# greeting('Meryem')
+customer_numbers = input("What number would you like?")
+
+my_numbers = [7, 9, 90]
+my_numbers_2 = [75, 33, 6, 9]
+
+def avg_my_list(my_list):
+    avg = sum(my_list)/len(my_list)
+    return avg
+
+print(avg_my_list(my_numbers))
+print(avg_my_list(my_numbers_2))
