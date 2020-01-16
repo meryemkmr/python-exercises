@@ -57,6 +57,59 @@
 #     print(index)
 
 
-for num1 in range(1,11):
-    for num2 in range(1,11):
-        print(num1,"X",num2,"=",num1 * num2)
+# for num1 in range(1,11):
+#     for num2 in range(1,11):
+#         print(num1,"X",num2,"=",num1 * num2)
+
+# todos = ["pet the cat", "go to work", "shop for groceries", 
+# "go home", "feed the cat"]
+# todos.append("binge watch a show")
+# todos.append("go to sleep")
+# count = 0
+# while count < len(todos):
+#     print(f"{count}: {todos[count]}")
+#     count += 1
+
+# x = [[2,6],[6,2],[8,2],[5,12]]
+# print(x[2])
+# print(x[2][1])
+
+# a = [ [2, 4, 6, 8 ],  
+#     [ 1, 3, 5, 7 ],  
+#     [ 8, 6, 4, 2 ],  
+#     [ 7, 5, 3, 1 ] ]  
+# i = 0
+# j = 0
+# while i < len(a) :  
+#     while j < len(a[i]) :  
+#         print(f"{a[i][j]}", end=" ")
+#         j += 1 
+#     print()
+#     j = 0
+#     i+= 1
+
+
+# for i in range(len(a)):
+#     for j in range(len(a[i])):
+        
+#         print(f'{a[i][j]}', end= '')
+#         j +=1
+
+# alphabet = "abcdefghijklmnopqrstuvwxyz"
+# # index = 0
+# # while index < len(alphabet):
+# #     print(alphabet[index])
+# #     index += 1
+
+# for index in range(len(alphabet)):
+#     print(alphabet[index])
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+alphalist = list(alphabet)
+
+print(type(alphalist))
+
+alphabet = ".".join(alphalist)
+
+print(type(alphabet))
+print(alphabet)
