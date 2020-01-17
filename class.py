@@ -173,14 +173,62 @@
 # def greeting(person):
 #     print(f'Welcome {person}')
 # greeting('Meryem')
-customer_numbers = input("What number would you like?")
 
-my_numbers = [7, 9, 90]
-my_numbers_2 = [75, 33, 6, 9]
 
-def avg_my_list(my_list):
-    avg = sum(my_list)/len(my_list)
-    return avg
+# my_numbers = [7, 9, 90]
+# my_numbers_2 = [75, 33, 6, 9]
 
-print(avg_my_list(my_numbers))
-print(avg_my_list(my_numbers_2))
+# def avg_my_list(my_list):
+#     avg = sum(my_list)/len(my_list)
+#     return avg
+
+# print(avg_my_list(my_numbers))
+# print(avg_my_list(my_numbers_2))
+
+# my_tuple = (3,4,5,6)
+# v1 ,v2, v3, v4 = my_tuple
+# print(v1)
+
+# contact = [{
+#     'first_name': 'Meryem',
+#     'last_name': 'Komur',
+#     'phone':{
+#         'cell':'333-333-3333',
+#         'home':'444-444-4444',
+#     }
+# },
+# {
+#     'first_name': 'John',
+#     'last_name': 'Kearney'
+# },
+# {   'first_name': 'Sean',
+#     'last_name': 'Page'
+
+# }]
+
+# print(contact[0])
+# print(contact[1])
+# print(contact[1]['last_name'],contact[2]['first_name'])
+# print(contact[0]['phone']['cell'])
+contact = [
+    {
+        'first_name': 'Phillip',
+        'last_name': 'Guo',
+        'email': 'phillip.guo@gmail.com',
+        'phone':{
+            'work':'837-494-3948',
+            'cell': '234-897-4933'
+        }
+    },
+    {
+        'first_name': 'Mark',
+        'last_name': 'Guzdial',
+        'email': 'mark.guzdial@gatech.edu',
+        'phone':{
+            'work':'484-569-3466',
+            'cell': '493-485-9845'
+        }
+    }
+]
+
+print(contact[1]['phone']['work'])
