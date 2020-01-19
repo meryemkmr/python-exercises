@@ -232,3 +232,47 @@
 # ]
 
 # print(contact[1]['phone']['work'])
+
+# my_dictionary = {
+#     "hello" :   "world",
+#     "sqareOfTwo" : 4,
+#     "theMeaningOfLife" : 42,
+#     0 : 1
+# }
+# isItThere = "hello" in my_dictionary
+# print(isItThere)
+
+# my_dictionary = {
+#     "hello" :   "world",
+#     "sqareOfTwo" : 4,
+#     "theMeaningOfLife" : 42,
+#     0 : 1
+# }
+# keys = my_dictionary.keys()
+# print(keys)
+# my_dictionary = {
+#     "hello" :   "world",
+#     "sqareOfTwo" : 4,
+#     "theMeaningOfLife" : 42,
+#     0 : 1
+# }
+# values = my_dictionary.values()
+# print(values)
+
+# items = my_dictionary.items()
+# print(items)
+# for key, value in my_dictionary.items():
+#     print(key)
+#     print(value)
+
+# my_dictionary = {
+#     "hello" :   "world",
+#     "sqareOfTwo" : 4,
+#     "theMeaningOfLife" : 42,
+#     0 : 1
+# }
+# my_dictionary["theMeaningOfLife"] = "wat"
+# wat = my_dictionary["theMeaningOfLife"]
+# print(wat)
+# my_dictionary["newKeyName"] = "hello world"
+# print(my_dictionary)
