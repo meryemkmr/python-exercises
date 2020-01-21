@@ -95,23 +95,28 @@
 #3. Find the shortest String
 
 
-# new_shortest = ['aydin','meryem','ali']
+new_shortest = ['aydin','meryem','ali']
 
-# def shortest(myshort):
-#     short = myshort[0]
-#     for num in myshort:
-#         if (len(num)< len(short)):
-#             num=short
-#     return short
-# print(shortest(new_shortest))
-# # def shortest_str_list(str):
-# #     len = str('')
-# #     for a in str :
-#         if a < len:
-#             len = a
-#     return len
+def shortest(myshort):
+    short = myshort[0]
+    for i in myshort:
+        if (len(i) < len(short)):
+            short = i
+    
+    return short
+print(shortest(new_shortest))
 
 
-# print(shortest_str_list(new_shortest))
 
 #4. Find the longest String
+
+new_longest = ['aydin','meryem','ali']
+
+def longest(mylong):
+    long = mylong[0]
+    for i in mylong:
+        if (len(i) > len(long)):
+            long = i
+    
+    return long
+print(longest(new_longest))
