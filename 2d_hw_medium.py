@@ -88,11 +88,11 @@
 
 
 
-a = [2,4,5]
-b = [2,3,4]
-ab =[]
+# a = [2,4,5]
+# b = [2,3,4]
+# ab =[]
 
-for i in range(len(a)):
-    ab.append(a[i]*b[i])
+# for i in range(len(a)):
+#     ab.append(a[i]*b[i])
 
-print(ab)
+# print(ab)
